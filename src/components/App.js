@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <Switch>
-        <Route exact path='/' render={() => <Pages.MainPage />} />
+        <Route exact path='/' render={() => <Pages.IntroPage />} />
       </Switch>
     </>
   );
